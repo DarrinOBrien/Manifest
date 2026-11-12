@@ -1,10 +1,10 @@
-# AI Drawing Partner
+# Manifest
+
+**🏆 1st place, Fountain Ventures Track · 3rd place, General Track at *Build Something AI Cannot Do Alone @ Cal Hackathon* (DiversaTech hackathon, 17 October 2026).**
+
+Manifest is an AI drawing partner for beginners. [Devpost](https://devpost.com/software/manifest-795cit)
 
 A turn-based drawing canvas where a human and an AI draw together. The human sketches; Claude looks at the canvas and suggests what could come next; an image model (FLUX via Fal) generates a reference for that suggestion; and the app traces the reference into ordinary, editable pen strokes, placed into a region you mark or across the whole canvas.
-
-Built for the DiversaTech hackathon, 17 October 2026.
-
-**Try it live:** [diversa-tech-oct-17-2026-hackathon.vercel.app](https://diversa-tech-oct-17-2026-hackathon.vercel.app?_vercel_share=i6jYKeuFNnuU0wFzObwPdJkqbUAlwLwT) (frontend on Vercel, backend on Render; the first AI request after a while idle can take about a minute while the backend wakes up).
 
 Contributors:
 - Darrin
@@ -12,6 +12,12 @@ Contributors:
 - Jonothan
 - PokPong
 - Claude
+
+## Demo
+
+| Blank canvas | Drawing a person | Drawing a volcano |
+|---|---|---|
+| ![Manifest's blank landing screen](images/gallery-3.jpg) | ![Claude suggests balloons for a stick figure, with a generated reference image](images/gallery.jpg) | ![Claude suggests a jagged crater rim for a volcano sketch, with a generated reference image](images/gallery-2.jpg) |
 
 ## How it works
 
